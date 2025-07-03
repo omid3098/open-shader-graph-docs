@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-07-03.md",
+                "file": "notes/2025-07-03.md",
                 "mode": "source",
                 "source": false
               },
@@ -180,9 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d243724e73db6d3",
+  "active": "9cf34cb5239a47ce",
   "lastOpenFiles": [
-    "2025-07-03.md",
+    "media",
+    "media/Pasted image 20250703222705.png",
+    "notes/2025-07-03.md",
     "notes/{{data}}.md",
     "notes",
     "Welcome.md"
