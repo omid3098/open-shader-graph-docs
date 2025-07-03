@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "849e500e0efa2118",
+        "id": "c5610112a41d7ed2",
         "type": "tabs",
         "children": [
           {
-            "id": "bcb143e63488f6f8",
+            "id": "8985782b599c7321",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": ""
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: .gitignore"
+              "icon": "lucide-file",
+              "title": "Welcome"
             }
           }
         ]
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bcb143e63488f6f8",
+  "active": "8985782b599c7321",
   "lastOpenFiles": [
     "Welcome.md"
   ]
