@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/2025-07-03.md",
+                "file": "notes/2025-07-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-03"
+              "title": "2025-07-04"
             }
           }
         ]
@@ -180,12 +180,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9cf34cb5239a47ce",
+  "active": "9d243724e73db6d3",
   "lastOpenFiles": [
+    "notes/2025-07-03.md",
+    "notes/2025-07-04.md",
     "media/Pasted image 20250703225411.png",
     "media",
     "media/Pasted image 20250703222705.png",
-    "notes/2025-07-03.md",
     "notes/{{data}}.md",
     "notes",
     "Welcome.md"
