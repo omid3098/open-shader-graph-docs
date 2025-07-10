@@ -11,14 +11,17 @@
             "id": "25db6b1396d68364",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "notes/2025-07-08.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": -70.17578125,
+                  "y": -111.46484375,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "2025-07-08"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ]
@@ -182,8 +185,9 @@
   },
   "active": "25db6b1396d68364",
   "lastOpenFiles": [
-    "notes/2025-07-06.md",
     "notes/2025-07-08.md",
+    "Untitled.canvas",
+    "notes/2025-07-06.md",
     "notes/2025-07-03.md",
     "notes/2025-07-04.md",
     "notes/2025-07-05.md",
