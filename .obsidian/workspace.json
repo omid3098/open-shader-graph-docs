@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5cec7c5dce36fe4d",
+        "id": "3538def3a7c803d4",
         "type": "tabs",
         "children": [
           {
-            "id": "36e2b40462456516",
+            "id": "5cad73d71886667c",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -179,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "36e2b40462456516",
+  "active": "5cad73d71886667c",
   "lastOpenFiles": [
     "Excalidraw/Example Graph.md",
     "notes/2025-07-08.md",
