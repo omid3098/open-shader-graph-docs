@@ -1,10 +1,12 @@
 {
 	"nodes":[
-		{"id":"b44696038d9b3eb0","x":-236,"y":223,"width":250,"height":60,"type":"text","text":""},
 		{"id":"4701631717bb070a","x":-600,"y":-460,"width":1080,"height":660,"type":"text","text":"Main Graph\n"},
 		{"id":"1ac35fded2c663f3","x":-320,"y":-400,"width":770,"height":560,"type":"text","text":"Fragment Pass"},
 		{"id":"fed7fb1d6bb146eb","x":-580,"y":-400,"width":250,"height":60,"type":"text","text":"Vertex Pass"},
-		{"id":"585b8abaa7cb47b9","x":140,"y":-260,"width":250,"height":240,"type":"text","text":"Fragment Output\n\nColor"}
+		{"id":"585b8abaa7cb47b9","x":120,"y":340,"width":250,"height":240,"type":"text","text":"Fragment Output\n\nColor"},
+		{"id":"b44696038d9b3eb0","x":-240,"y":410,"width":220,"height":100,"type":"text","text":"Color\n\nin   -                 -  out"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"45d8ad2bed1a32b7","fromNode":"b44696038d9b3eb0","fromSide":"right","toNode":"585b8abaa7cb47b9","toSide":"left"}
+	]
 }
