@@ -11,33 +11,15 @@
             "id": "25db6b1396d68364",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": -60,
-                  "y": 126.68000000000002,
-                  "zoom": -0.48
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "f1d647211ce8563c",
-            "type": "leaf",
-            "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2025-07-10 18.41.21.excalidraw.md"
+                "file": "Excalidraw/Example Graph.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-07-10 18.41.21.excalidraw"
+              "title": "Example Graph"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,14 +179,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f1d647211ce8563c",
+  "active": "9cf34cb5239a47ce",
   "lastOpenFiles": [
+    "notes/2025-07-08.md",
+    "Excalidraw/Example Graph.md",
+    "Untitled.canvas",
     "Untitled 2.canvas",
-    "Excalidraw/Drawing 2025-07-10 18.41.21.excalidraw.md",
     "Excalidraw",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "notes/2025-07-08.md",
     "notes/2025-07-06.md",
     "notes/2025-07-03.md",
     "notes/2025-07-04.md",
