@@ -210,6 +210,45 @@ outputs: []
 
 shader_type spatial; ^LjOdSxlb
 
+- What does template should look like?
+- How should we traverse the graph to inject these templates? ^ajrS0h24
+
+# data/languages/Godot.yml
+name: "Godot Shader Language"
+version: "1.0"
+file_extensions: ["gdshader"]
+
+code_template: |
+  shader_type {{shader_type}};
+
+  // Uniforms
+  {{uniforms}}
+
+  // Varyings
+  {{varyings}}
+
+  void vertex() {
+      {{vertex_code}}
+  }
+
+  void fragment() {
+      {{fragment_code}}
+  }
+
+# Node to code mappings
+nodes:
+  surface:
+    template: spatial
+  color:
+    outputs:
+      - name: out
+        template: |
+          vec4 {{var}} = vec4({{in}});
+  fragment_output:
+    template: |
+      ALBEDO = {{Color}}
+ ^WihbUIJb
+
 %%
 ## Drawing
 ```compressed-json
@@ -365,14 +404,26 @@ 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
 
-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
+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
 
-Jzrl8nnhJnjOEeu5nrgC4AjQFEZzxwtg56H2/NJHGpx5CG55mQ4pnijJwBKBonwpQqcrbHxC5HTRFOYXiQICYXKL9KSWT4Y+QXI4AJ4gkg6wpowwQfqtAA4hEUHpCkAu9vvSEACABQCyQ+JmGl8oqoEunLpfIB6qnIWuLQw6gDmrvznJ7CWAbca6zrQxzpxrgumxEqnjMBrpkiNGC0MBMP5Y0+q6Rbjrph6VkBbpdNlp77pT6QC6bp89rckXpj6V
+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
 
-em0MjPMImZkl6RulZA/aCvYSqH6QBlZABMMOIzBveqBnPpvsdzrUpxQEhlfpWQDOhXRjKX+kHpmGfoCnciHv0nYpGGdelZADFsQDEZH3gMmoJ6Gf+lgZ+gOS75gkKLNCrpzANgC0gmoD0BKYGUMwgZQiUpJgyeF6RxlcZ+ACvRcYDhCipWkXZPcC3UiGUYAsM+gFAYMAjHGc6fS3wEnhkZgGRVrRYoWuKCrpIoCQAWmeUBelGZUyTBDge6KCPEkA
+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
 
-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
+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
 
-ADZzIMrTeQ4AD5DUa4QMTiaQx4EAA===
+kqSFOrbq1i9YjpLZRUAAZLrZFPKCFmSvYpbH5EtkRyBeZIgvSH8a/mRoJHilItSIhZcgmFmXiEWXFlRZ8TByJxZXIi+L2C74hd5Ci2DF+JZZNWOKIEh7Yrll2hQEoVmgSJjBro6iJopVk6i1WQhK66GOshLbZe2k1nWihuiMLhwrQgEoDZjEl1lkSgfsTmewPwbCLk5TEqgA9WYYnYwRiE2TjFTZJ2TDlzZwkgtliSanMtmPCq2QpI5ZK8FtklCl
+
+YmpL7ZWks7oSBbbFzkCSUomdnO+3YhdmzCJ0YOJc6Q1rSmzB9KfMGMpouliSzWF6VLrrB16c9H7WAgndk+Zj2QeLPZgWVSI0K72ReKCMvGvxqRZbItFn/Z4gQllA5b4o4Kg5n4hlmiiUOTlnQ6BWRQx2hSOfBKI6ZWfVno5sEm6I1ZOuntomiZooUIE5mEjjo05Ifg6IQRDOZTn4M5ukbok51EsIEF5Q2UzmhirEuGLsS7OUYwxiiMgrl++POZcL
+
+LMPsktn8KRcsLlySp2QpIk6vwuWKS5z2tLm06BMbkr6SrYtzkbZdOirnx+G7Fdkkg1scXzuq5fHBmOSTsWMnoAxAFJkyZC/vJlQAimfEDKZqmSnrgqmpOZBAUIEJG7ga/ajJgd4lhAkBFQQzhcCpQlhjx7koJjmnSmQ46ni5Tqzeq8phgc6uZAlxYYPoTmpNmLvwbqHGePpcZNyS6m0+dNlp78ZPGYfrDhoqivYiZnqWJkb2vqZPH+pWwBE7ICAv
+
+pthJApUFvRJAUtqL46JMbjcBZQxYZfaHhpqseEppx8cinmJqKQ5l/qzmQ+GNW+aQAzgG3qpAaNe48cbSkawauRqhqVtFRo20tGtGpUaPtHGpu0Jxrh7saPiKmqnIPGq4GCaBaosjgAniCSDrCmjDBB+q0ADiERQekKQC72+9IQAIAFALJD4mNqXyiqgLha4V8gHqpoXrOtDDqAOau/OcnsJYBtxpeFWQA4XGuThbESqeMwB4WSI0YLQwEw/ljT7u
+
+FFuJ4UAu3hUFb02gRSkWxFWQD4VBaAmZkUxFtDIzzCJmZNEVa4tDP2iYFd6mUXBFvscOIHpURckWFFWQATDc61KcUA1FqRVkAzoV0QbkdFTReUU5FnSX0kfeL6p0XZF+gAxbEAiHv0noeqCf0VBFXRfoDku+YJCizQ7hcwDYAtIJqA9AOVvlD7ucmBcBSOXOOdDGgWxcyD4AK9HFC4o6lriC5I/wKcTEoURUYAsM+gFAYMAjHGc6fS3wEnjjFRRR
+
+VrRYoWuKDuFIoCQAWmeUFEWglUyTBDge6KCPEkA7QP6wMWaIf/bwl4RX5CyQzIH4hs6uAHUJ2qbTPiW8AE5BSBHADQkaA7wfGgCwbmOJXiXnSJCNTq6UDuqSUUGCxSkW5F9IJUU6yxBSrTjxO8JAENey3n84UkxflLD0OYBkQDgeYpWoXZAdDjBn6oG8Ekyylh8L8V2AIGXkDDGIuIiU1YyJSKWgGJIFQGMA+YCwy2047prYugmQGcHWRmtJ6oGA
+
+qxcciPh/BbfSmcWoBaU6yLBTEne4BpQgBGlzIMrTeQ4AD5DUa4QMTiaQx4EAA===
 ```
 %%
