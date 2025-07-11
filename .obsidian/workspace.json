@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "98b91b93ff481714",
+        "id": "00db627de89be266",
         "type": "tabs",
         "children": [
           {
-            "id": "0d522a609e78ed16",
+            "id": "c35162ec5f1cb623",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Example Graph.md"
+                "file": "Excalidraw/Drawing 2025-07-11 21.46.17.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Example Graph"
+              "title": "Drawing 2025-07-11 21.46.17.excalidraw"
             }
           }
         ]
@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "97614cd0a27cdf72",
@@ -165,8 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,11 +178,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d522a609e78ed16",
+  "active": "9cf34cb5239a47ce",
   "lastOpenFiles": [
+    "Excalidraw/Example Graph.md",
+    "Excalidraw/Drawing 2025-07-11 21.46.17.excalidraw.md",
     "notes/2025-07-06.md",
     "notes/2025-07-08.md",
-    "Excalidraw/Example Graph.md",
     "Untitled.canvas",
     "Untitled 2.canvas",
     "Excalidraw",
