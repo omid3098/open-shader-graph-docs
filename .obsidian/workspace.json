@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "00db627de89be266",
+        "id": "cf6bf884efde31c3",
         "type": "tabs",
         "children": [
           {
-            "id": "c35162ec5f1cb623",
+            "id": "7ab3ba53eec1cfbe",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "image",
               "state": {
-                "file": "Excalidraw/Drawing 2025-07-11 21.46.17.excalidraw.md"
+                "file": "media/saeid_template_proposal.png"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-07-11 21.46.17.excalidraw"
+              "icon": "lucide-image",
+              "title": "saeid_template_proposal"
             }
           }
         ]
@@ -178,11 +178,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c35162ec5f1cb623",
+  "active": "9cf34cb5239a47ce",
   "lastOpenFiles": [
-    "Pasted Image 20250712125001_243.png",
-    "Excalidraw/Example Graph.md",
+    "media/Pasted image 20250703222705.png",
     "Excalidraw/Drawing 2025-07-11 21.46.17.excalidraw.md",
+    "media/saeid_template_proposal.png",
+    "Excalidraw/Example Graph.md",
     "notes/2025-07-06.md",
     "notes/2025-07-08.md",
     "Untitled.canvas",
@@ -194,7 +195,6 @@
     "notes/2025-07-05.md",
     "media/Pasted image 20250703225411.png",
     "media",
-    "media/Pasted image 20250703222705.png",
     "notes/{{data}}.md",
     "notes",
     "Welcome.md"
