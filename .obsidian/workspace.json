@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cf6bf884efde31c3",
+        "id": "efcd3408656670b5",
         "type": "tabs",
         "children": [
           {
-            "id": "7ab3ba53eec1cfbe",
+            "id": "62b91e727a99241d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "excalidraw",
               "state": {
-                "file": "media/saeid_template_proposal.png"
+                "file": "Excalidraw/template_analyze.md"
               },
-              "icon": "lucide-image",
-              "title": "saeid_template_proposal"
+              "icon": "excalidraw-icon",
+              "title": "template_analyze"
             }
           }
         ]
@@ -180,10 +180,10 @@
   },
   "active": "9cf34cb5239a47ce",
   "lastOpenFiles": [
-    "media/Pasted image 20250703222705.png",
-    "Excalidraw/Drawing 2025-07-11 21.46.17.excalidraw.md",
-    "media/saeid_template_proposal.png",
     "Excalidraw/Example Graph.md",
+    "Excalidraw/template_analyze.md",
+    "media/saeid_template_proposal.png",
+    "media/Pasted image 20250703222705.png",
     "notes/2025-07-06.md",
     "notes/2025-07-08.md",
     "Untitled.canvas",

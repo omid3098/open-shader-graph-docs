@@ -62,7 +62,7 @@ yes (graph node) ^2eSQGXnT
 no (primitive node) ^YZKed2rm
 
 ## Embedded Files
-942b80d0853695cbb0da041efa2c1374d7ec2355: [[Pasted Image 20250712125001_243.png]]
+942b80d0853695cbb0da041efa2c1374d7ec2355: [[saeid_template_proposal.png]]
 
 %%
 ## Drawing
