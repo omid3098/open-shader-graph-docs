@@ -11,12 +11,14 @@
             "id": "62b91e727a99241d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Example Graph.md"
+                "file": "notes/2025-07-13.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Example Graph"
+              "icon": "lucide-file",
+              "title": "2025-07-13"
             }
           }
         ]
@@ -178,14 +180,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "465d250c3eaf3b1e",
+  "active": "62b91e727a99241d",
   "lastOpenFiles": [
+    "notes/2025-07-08.md",
+    "notes/2025-07-13.md",
     "Excalidraw/Example Graph.md",
     "Excalidraw/template_analyze.md",
     "media/saeid_template_proposal.png",
     "media/Pasted image 20250703222705.png",
     "notes/2025-07-06.md",
-    "notes/2025-07-08.md",
     "Untitled.canvas",
     "Untitled 2.canvas",
     "Excalidraw",
